@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f5f7fb;
+    color: #333;
+    
+} 
+.container{
+    display: flexbox;
+}
+
+
+.maincontent{
+    margin-left: 240px;
+    width: 100%;
+    padding: 30px;
+    color: #333;
+    gap: 20px;
+
+    
+
+}
+
+.Dashboard{
+    background-color: #0f172a;
+    width: 450px;
+    height: 100vh;
+    color: white;
+    padding: 12px;
+    
+
+}
+
+.Dashboard a{
+    display: block;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.Dashboard a :hover{
+    background: #2563eb;
+    color: white;
+}
+
+
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: #333;
+
+}
+
+.topbar input{
+    width: 350px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 30px;
+    background: #eef3fb;
+    outline: none;
+}
+
+.pageheader{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #333;
+    gap: 20px;
+}
+
+.active{
+    background: #1d4ed8;
+}
+
+.entermarks{
+    background: #1d4ed8;
+}
+
+.KPIS{
+    background: #eef3fb;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0  4px 15px
+
+    rgba(0,0,0,0.8);
+
+   
+
+}
+
+
+.subject{
+    background: #eee;
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    color: #333;
+    
+}
+
+.subjects{
+    padding: 50px;
+    word-spacing:  13px;
+}
+
+.exam{
+    background: #e5e7eb;
+    border-radius: 10px;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    gap: 20px;
+
+}
+
+th,td{
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+th{
+    background: #f8fafc;
+}
+
+
+.upcomingexams{
+    background-color: #333;
+    color: white;
+    border-radius: 18px;
+    padding: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
