@@ -1,176 +1,10 @@
-<!doctype html>
 
-<html class="light" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>PSMS Uganda - Admin Dashboard</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap"
-      rel="stylesheet"
-    />
-    <!-- Material Symbols -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-      rel="stylesheet"
-    />
-    <!-- Tailwind Theme Config -->
-    <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "on-tertiary-fixed-variant": "#004e5c",
-              "primary-container": "#2563eb",
-              secondary: "#0058be",
-              "surface-container-highest": "#d3e4fe",
-              "on-error-container": "#93000a",
-              "surface-dim": "#cbdbf5",
-              "secondary-container": "#2170e4",
-              "primary-fixed-dim": "#b4c5ff",
-              "surface-tint": "#0053db",
-              "on-surface-variant": "#434655",
-              "on-primary-fixed": "#00174b",
-              surface: "#f8f9ff",
-              primary: "#004ac6",
-              "tertiary-fixed-dim": "#4cd7f6",
-              "surface-container-high": "#dce9ff",
-              "on-tertiary-container": "#d7f6ff",
-              "on-primary-container": "#eeefff",
-              "inverse-on-surface": "#eaf1ff",
-              background: "#f8f9ff",
-              error: "#ba1a1a",
-              "on-background": "#0b1c30",
-              "surface-container-low": "#eff4ff",
-              "tertiary-fixed": "#acedff",
-              "surface-container": "#e5eeff",
-              "outline-variant": "#c3c6d7",
-              tertiary: "#005e6e",
-              "on-secondary": "#ffffff",
-              "on-tertiary-fixed": "#001f26",
-              "surface-bright": "#f8f9ff",
-              "inverse-surface": "#213145",
-              "secondary-fixed-dim": "#adc6ff",
-              "surface-variant": "#d3e4fe",
-              "on-secondary-fixed": "#001a42",
-              "surface-container-lowest": "#ffffff",
-              "on-tertiary": "#ffffff",
-              "error-container": "#ffdad6",
-              "primary-fixed": "#dbe1ff",
-              "on-secondary-container": "#fefcff",
-              "on-primary-fixed-variant": "#003ea8",
-              outline: "#737686",
-              "on-secondary-fixed-variant": "#004395",
-              "tertiary-container": "#00788c",
-              "inverse-primary": "#b4c5ff",
-              "on-surface": "#0b1c30",
-              "on-error": "#ffffff",
-              "on-primary": "#ffffff",
-              "secondary-fixed": "#d8e2ff",
-            },
-            borderRadius: {
-              DEFAULT: "0.25rem",
-              lg: "0.5rem",
-              xl: "0.75rem",
-              full: "9999px",
-            },
-            spacing: {
-              gutter: "24px",
-              "margin-mobile": "16px",
-              "container-max": "1440px",
-              base: "8px",
-              "margin-desktop": "32px",
-            },
-            fontFamily: {
-              "headline-lg": ["Plus Jakarta Sans"],
-              "label-md": ["Inter"],
-              "display-lg": ["Plus Jakarta Sans"],
-              "body-md": ["Inter"],
-              "headline-md": ["Plus Jakarta Sans"],
-              "body-lg": ["Inter"],
-              "title-lg": ["Inter"],
-            },
-            fontSize: {
-              "headline-lg": [
-                "32px",
-                { lineHeight: "40px", fontWeight: "700" },
-              ],
-              "label-md": [
-                "12px",
-                {
-                  lineHeight: "16px",
-                  letterSpacing: "0.05em",
-                  fontWeight: "500",
-                },
-              ],
-              "display-lg": [
-                "48px",
-                {
-                  lineHeight: "60px",
-                  letterSpacing: "-0.02em",
-                  fontWeight: "700",
-                },
-              ],
-              "body-md": ["14px", { lineHeight: "20px", fontWeight: "400" }],
-              "headline-md": [
-                "24px",
-                { lineHeight: "32px", fontWeight: "600" },
-              ],
-              "body-lg": ["16px", { lineHeight: "24px", fontWeight: "400" }],
-              "title-lg": ["18px", { lineHeight: "28px", fontWeight: "600" }],
-            },
-          },
-        },
-      };
-    </script>
-    <style>
-      body {
-        background-color: #f8fafc;
-        color: #0f172a;
-        -webkit-font-smoothing: antialiased;
-      }
-      .material-symbols-outlined {
-        font-variation-settings:
-          "FILL" 0,
-          "wght" 400,
-          "GRAD" 0,
-          "opsz" 24;
-      }
-      .glass-card {
-        background: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(12px);
-        border: 1px solid #e2e8f0;
-        border-radius: 16px;
-      }
-      .scrollbar-hide::-webkit-scrollbar {
-        display: none;
-      }
-      .bento-grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 24px;
-      }
-      .chart-gradient {
-        background: linear-gradient(
-          180deg,
-          rgba(37, 99, 235, 0.1) 0%,
-          rgba(37, 99, 235, 0) 100%
-        );
-      }
-    </style>
-  </head>
-  <body class="font-body-md text-body-md overflow-x-hidden">
-    <!-- SideNavBar -->
+import './App.css'
+
+function App() {
+
+  return (
+    <>
     <aside
       class="w-[280px] h-screen fixed left-0 top-0 bg-[#0F172A] border-r border-outline-variant shadow-md flex flex-col h-full py-6 z-50 transition-all duration-200 ease-in-out"
     >
@@ -187,7 +21,7 @@
         </p>
       </div>
       <nav class="flex-1 overflow-y-auto scrollbar-hide px-3 space-y-1">
-        <!-- Dashboard Active -->
+        
         <a
           class="flex items-center gap-3 px-4 py-3 border-l-4 border-tertiary-fixed bg-white/10 text-white font-bold rounded-r transition-all duration-200 ease-in-out"
           href="#"
@@ -197,7 +31,7 @@
           >
           <span class="font-body-md text-body-md">Dashboard</span>
         </a>
-        <!-- Iterating through JSON labels -->
+        
         <a
           class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:text-white hover:bg-white/5 transition-colors rounded-r"
           href="#"
@@ -300,7 +134,7 @@
         </div>
       </div>
     </aside>
-    <!-- TopNavBar -->
+    
     <header
       class="h-16 w-full fixed top-0 z-40 bg-white/80 backdrop-blur-md border-b border-outline-variant shadow-sm flex justify-between items-center pl-[280px] pr-8"
     >
@@ -362,10 +196,11 @@
         </div>
       </div>
     </header>
-    <!-- Main Content -->
-    <main class="pl-[280px] pt-16 min-h-screen">
+
+    
+      <main class="pl-[280px] pt-16 min-h-screen">
       <div class="p-margin-desktop space-y-gutter">
-        <!-- Welcome Header -->
+        
         <div class="flex justify-between items-end">
           <div class="space-y-1">
             <h2 class="font-headline-lg text-headline-lg text-on-surface">
@@ -394,9 +229,9 @@
             </button>
           </div>
         </div>
-        <!-- Statistics Cards -->
+  
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-gutter">
-          <!-- Students -->
+          
           <div
             class="glass-card p-6 flex items-start justify-between shadow-sm hover:shadow-md transition-shadow"
           >
@@ -428,7 +263,7 @@
               >
             </div>
           </div>
-          <!-- Teachers -->
+          
           <div
             class="glass-card p-6 flex items-start justify-between shadow-sm hover:shadow-md transition-shadow"
           >
@@ -462,7 +297,7 @@
               >
             </div>
           </div>
-          <!-- Fees -->
+          
           <div
             class="glass-card p-6 flex items-start justify-between shadow-sm hover:shadow-md transition-shadow"
           >
@@ -494,7 +329,7 @@
               >
             </div>
           </div>
-          <!-- Courses -->
+          
           <div
             class="glass-card p-6 flex items-start justify-between shadow-sm hover:shadow-md transition-shadow"
           >
@@ -529,9 +364,9 @@
             </div>
           </div>
         </div>
-        <!-- Dashboard Bento Grid -->
+        
         <div class="bento-grid">
-          <!-- Enrollment Trends Chart -->
+          
           <div
             class="col-span-12 lg:col-span-8 glass-card p-6 min-h-[400px] flex flex-col"
           >
@@ -551,7 +386,7 @@
                 <option>Full Year</option>
               </select>
             </div>
-            <!-- Placeholder for Chart -->
+            
             <div
               class="flex-1 relative chart-gradient rounded-xl border border-dashed border-primary/20 flex items-center justify-center overflow-hidden"
             >
@@ -585,7 +420,7 @@
               </p>
             </div>
           </div>
-          <!-- Fees Collection Donut -->
+          
           <div class="col-span-12 lg:col-span-4 glass-card p-6 flex flex-col">
             <h4 class="font-title-lg text-title-lg text-on-surface mb-1">
               Fees Collection Status
@@ -642,7 +477,7 @@
               </div>
             </div>
           </div>
-          <!-- Recent Activities -->
+          
           <div class="col-span-12 lg:col-span-7 glass-card p-6">
             <div class="flex justify-between items-center mb-6">
               <h4 class="font-title-lg text-title-lg text-on-surface">
@@ -655,7 +490,7 @@
               </button>
             </div>
             <div class="space-y-6">
-              <!-- Activity Item -->
+              
               <div class="flex gap-4 group cursor-pointer">
                 <div
                   class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center group-hover:bg-primary-container group-hover:text-white transition-colors"
@@ -679,7 +514,7 @@
                   </p>
                 </div>
               </div>
-              <!-- Activity Item -->
+             
               <div class="flex gap-4 group cursor-pointer">
                 <div
                   class="w-10 h-10 rounded-full bg-surface-container-low flex items-center justify-center group-hover:bg-primary-container group-hover:text-white transition-colors"
@@ -701,7 +536,7 @@
                   </p>
                 </div>
               </div>
-              <!-- Activity Item -->
+             
               <div class="flex gap-4 group cursor-pointer">
                 <div
                   class="w-10 h-10 rounded-full bg-error-container/20 flex items-center justify-center text-error"
@@ -727,7 +562,7 @@
               </div>
             </div>
           </div>
-          <!-- Upcoming Events Widget -->
+          
           <div class="col-span-12 lg:col-span-5 glass-card p-6">
             <div class="flex justify-between items-center mb-6">
               <h4 class="font-title-lg text-title-lg text-on-surface">
@@ -820,7 +655,7 @@
             </div>
           </div>
         </div>
-        <!-- School Infrastructure & Status Section -->
+        
         <div class="glass-card overflow-hidden">
           <div
             class="bg-surface-container-low px-6 py-4 flex justify-between items-center border-b border-outline-variant"
@@ -880,37 +715,8 @@
         </div>
       </div>
     </main>
-    <!-- Contextual FAB (Only on Home/Dashboard) -->
-    <button
-      class="fixed bottom-8 right-8 w-14 h-14 bg-primary-container text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-50 group"
-    >
-      <span class="material-symbols-outlined text-[32px]" data-icon="add"
-        >add</span
-      >
-      <span
-        class="absolute right-full mr-4 bg-on-surface text-white px-4 py-2 rounded-lg text-label-md font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none"
-        >Create New Record</span
-      >
-    </button>
-    <script>
-      // Micro-interactions and atmospheric effects
-      document.addEventListener("DOMContentLoaded", () => {
-        // Hover effect for side nav
-        const navItems = document.querySelectorAll("nav a");
-        navItems.forEach((item) => {
-          item.addEventListener("mouseenter", () => {
-            if (!item.classList.contains("bg-white/10")) {
-              item.style.transform = "translateX(4px)";
-            }
-          });
-          item.addEventListener("mouseleave", () => {
-            item.style.transform = "translateX(0)";
-          });
-        });
+    </>
+  )
+}
 
-        // Active state logic from instructions
-        // Currently on Dashboard, which is highlighed by default in HTML.
-      });
-    </script>
-  </body>
-</html>
+export default App
