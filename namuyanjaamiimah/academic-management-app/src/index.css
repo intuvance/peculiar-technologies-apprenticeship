@@ -10,6 +10,10 @@ body{
     display: flexbox;
 }
 
+.partone{
+  display: flex;
+}
+
 .maincontent{
     margin-left: 240px;
     width: 100%;
@@ -18,15 +22,16 @@ body{
     gap: 20px;
 }
 
-.Dashboard{
+.sidebar{
     background-color: #0f172a;
     width: 450px;
     height: 100vh;
     color: white;
-    padding: 12px;    
+    padding: 12px;
+    display: flex;    
 }
 
-.Dashboard a{
+.sidebar a{
     display: block;
     color: white;
     padding: 12px;
@@ -35,7 +40,7 @@ body{
     text-decoration: none;
 }
 
-.Dashboard a :hover{
+.sidebar a :hover{
     background: #2563eb;
     color: white;
 }
