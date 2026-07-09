@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f5f7fb;
+    color: #333;
+    
+} 
+.container{
+    display: flexbox;
+}
+
+.maincontent{
+    margin-left: 240px;
+    width: 100%;
+    padding: 30px;
+    color: #333;
+    gap: 20px;
+}
+
+.Dashboard{
+    background-color: #0f172a;
+    width: 450px;
+    height: 100vh;
+    color: white;
+    padding: 12px;    
+}
+
+.Dashboard a{
+    display: block;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.Dashboard a :hover{
+    background: #2563eb;
+    color: white;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.topbar input{
+    width: 350px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 30px;
+    background: #eef3fb;
+    outline: none;
+}
+
+.pageheader{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #333;
+    gap: 20px;
+}
+
+.active{
+    background: #1d4ed8;
+}
+
+.entermarks{
+    background: #1d4ed8;
+}
+
+.KPIS{
+    background: #eef3fb;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0  4px 15px
+
+    rgba(0,0,0,0.8);
+    margin-top: 20px;
+}
+
+
+.subject{
+    background: #eee;
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    color: #333;   
+}
+
+.subjects{
+    padding: 50px;
+    word-spacing:  13px;
+}
+
+.exam{
+    background: #e5e7eb;
+    border-radius: 10px; 
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    gap: 20px;
+}
+
+th,td{
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+th{
+    background: #f8fafc;
+}
+
+.upcomingexams{
+    background-color: #333;
+    color: white;
+    border-radius: 18px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.Examinvig{
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.8);
+    border: 1px solid #e8eef3;
+    margin-top: 20px;
+}
+
+.Examinvig h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 25px;
+}
+
+.teacher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.p1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.p2{
+    font-size: 15px;
+    color: #64748b;
+}
+
+.yeartrend{
+    background-color: #00b7ff;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.yeartrend h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+
+.yeartrend p{
+    font-size: 18px;
+    color: #6b7280;
+    
+}
+
+
+
+
