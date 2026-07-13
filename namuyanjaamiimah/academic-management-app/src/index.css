@@ -1,188 +1,256 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #f5f7fb;
-    color: #333;
-    
-} 
-.container{
-    display: flexbox;
-}
-
-.partone{
-  display: flex;
-}
-
-.maincontent{
-    margin-left: 240px;
-    width: 100%;
-    padding: 30px;
-    color: #333;
-    gap: 20px;
-}
 
 .sidebar{
-    background-color: #0f172a;
-    width: 450px;
-    height: 100vh;
-    color: white;
-    padding: 12px;
-    display: flex;    
+    width: 20%;
+    height: auto;
+    padding: 30px 20px;
+    background: linear-gradient(
+        180deg,
+        #020617 0%,
+        #0f172a 50%,
+        #1e293b 100%
+    );
+    color: #ffffff;
+    box-shadow: 5px 0 25px rgba(0,0,0,0.3);
+
 }
 
-.sidebar a{
-    display: block;
-    color: white;
-    padding: 12px;
-    border-radius: 8px;
-    margin-bottom: 8px;
-    text-decoration: none;
+.sidebar h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    
 }
 
-.sidebar a :hover{
-    background: #2563eb;
-    color: white;
+ .subtitle {
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 40px;
+ }
+
+ .icons{
+    margin-top: 10px;
+ }
+
+ .icons a{
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+ }
+
+.btn{
+    margin-top: 100px;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
 }
+
 
 .topbar{
+    background-color: blue;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
-    color: #333;
+    justify-content: space-between;
+    /* padding: 20px; */
 }
 
 .topbar input{
     width: 350px;
-    padding: 12px 18px;
-    border: none;
-    border-radius: 30px;
-    background: #eef3fb;
-    outline: none;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .pageheader{
-    padding: 12px 18px;
-    border: none;
-    border-radius: 10px;
-    background: #2563eb;
-    color: #333;
-    gap: 20px;
-}
-
-.active{
-    background: #1d4ed8;
-}
-
-.entermarks{
-    background: #1d4ed8;
-}
-
-.KPIS{
-    background: #eef3fb;
-    border-radius: 16px;
-    padding: 25px;
-    box-shadow: 0  4px 15px
-
-    rgba(0,0,0,0.8);
-    margin-top: 20px;
+    /* height: 100px; */
+    margin-left: 20px;
 }
 
 
-.subject{
-    background: #eee;
-    margin: 10px;
-    width: 300px;
-    height: 150px;
-    color: #333;   
-}
-
-.subjects{
-    padding: 50px;
-    word-spacing:  13px;
-}
-
-.exam{
-    background: #e5e7eb;
-    border-radius: 10px; 
-}
-
-table{
-    width: 100%;
-    border-collapse: collapse;
-    gap: 20px;
-}
-
-th,td{
-    padding: 15px;
-    border-bottom: 1px solid #eee;
-    color: #333;
-}
-
-th{
-    background: #f8fafc;
-}
-
-.upcomingexams{
-    background-color: #333;
-    color: white;
-    border-radius: 18px;
-    padding: 25px;
-    margin-top: 20px;
-}
-
-.Examinvig{
-    background: #fff;
-    border-radius: 20px;
-    padding: 25px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.8);
-    border: 1px solid #e8eef3;
-    margin-top: 20px;
-}
-
-.Examinvig h3{
-    font-size: 32px;
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 25px;
-}
-
-.teacher{
+.wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
-.p1{
-    font-size: 18px;
-    font-weight: bold;
-    color: #0f172a;
+.examBtns{
+    /* margin-right: 20px; */
+    display: flex;
+    gap: 50px;
 }
 
-.p2{
-    font-size: 15px;
-    color: #64748b;
+.examBtns button{
+    width: 150px;
+    height: 40px;
+}
+
+.KPIS{
+    /* background-color: chartreuse; */
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0px 20px 20px;
+}
+
+.KPIS .cards{
+    width: 230px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    padding: 0 10px;
+    text-align: center;
+
+
+}
+.exam{
+    background-color:cadetblue;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.subject{
+    background-color: darkgoldenrod;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.marksentry{
+    background-color: darkgreen;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.upcomingexams{
+    background-color: rgb(118, 139, 61);
+    border-radius: 10px;
+    height: 400px;
+    /* position: relative; */
+    padding: 10px;
+}
+
+.Examinvig{
+    background-color: aqua;
 }
 
 .yeartrend{
-    background-color: #00b7ff;
-    border-radius: 50px;
+    background-color: darkorchid;
+}
+.parttwo{
+    /* background-color: red; */
+    width: 80%;
+}
+
+.partone{
+    display: flex;
+    
+}
+
+.cont1{
+    display: flex;
+    width: 100%;
+    /* background-color: yellow; */
+    gap: 10px;
+    
+}
+
+.partthree{
+    display: flex;
+    gap:10px;
+    /* background-color: red; */
+
+}
+
+.Container{
+    width: 80%;
+    margin-left: 20px;
+}
+
+.Info{
+    display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-between;
 }
 
-.yeartrend h3{
-    font-size: 24px;
-    font-weight: 700;
-    color: #1d4ed8;
-    margin-bottom: 15px;
+.progressBar{
+    background: rgba(0,0,0,0.3);
+    border-radius: 50px;
+}
+.bar1{
+    width: 80%;
+    background-color: blue;
+    height: 15px;
+    border-radius: 50px;
 }
 
-.yeartrend p{
-    font-size: 18px;
-    color: #6b7280;
-    
+.bar2{
+    width: 50%;
+    background-color: blue;
+    height: 15px;
+    border-radius: 50px;
 }
+
+
+.bar3{
+    width: 70%;
+    background-color: blue;
+    height: 15px;
+    border-radius: 50px;
+}
+
+.progressInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.event{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+#DATE{
+    width: 20%;
+    padding: 10px;
+    height: 100%;
+    background-color: blue;
+}
+
+.open p{
+    line-height: 2px;
+}
+
+.viewBtn{
+    display: grid;
+    place-items: center;
+}
+
+.viewBtn button{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+
+

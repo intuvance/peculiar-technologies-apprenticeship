@@ -1,7 +1,8 @@
 import Sidebar from "./Sidebar";
 import Topbar  from "./Topbar";
-import Pageheader from "./Pageheader";
-
+import Overview from "./Overview";
+import Container from "./Container";
+import Lastpart from "./Lastpart";
 
 
 function Dashboard() {
@@ -10,16 +11,22 @@ function Dashboard() {
     <div className="partone">
         <Sidebar/>
 
-        <div>
+        <div className="parttwo" >
             <Topbar/>
-            <Pageheader/>
+            <Overview/>
 
-        </div>
+            <div className="partthree">
+              <Container/>
+              <Lastpart/>
+            </div>
 
+
+            
+           </div>
         
-
-
     </div>
+
+
  </>
 
   )

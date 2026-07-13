@@ -1,3 +1,5 @@
+import man from './assets/man.jpg'
+
 function Topbar() {
   return(
        <div className="topbar">
@@ -6,9 +8,8 @@ function Topbar() {
                                 <input type="text" placeholder="search exams, students or grades" />
                             </form>
 
-                            <div>
-                                <p>Sir Mary Nakato</p>
-                                <p>Headteacher</p>
+                            <div className="image">
+                                <img src={man} alt="" />
                             </div>
                         
         </div>

@@ -4,21 +4,46 @@ function Sidebar() {
             {/* FIRST CONTAINER */ }
             <div>
                 <h1>PSMS</h1>
-                <p>Super Admin Portal</p>
+                <p className="subtitle">Super Admin Portal</p>
 
-                <div>
-                    <a href="">Dashboard</a>
-                    <a href="">Admissions</a>
-                    <a href="">Students</a>
-                    <a href="">Teachers</a>
-                    <a href="">Examinations</a>
-                    <a href="">Report cards</a>
-                    <a href="">School Fees</a>
-                    <a href="">Library</a>
+                <div className="menuitems">
+                    <div className="icons">
+                        <a href="">Dashboard</a>
+                    </div>
+
+                    <div className="icons">
+                        <a href="">Admissions</a>
+                    </div>
+
+                    <div className="icons">
+                        <a href="">Students</a>
+                    </div>
+
+                    <div className="icons">
+                        <a href="">Teachers</a>
+                    </div>
+
+                    <div className="icons">
+                        <a href="">Examinations</a>
+                    </div>
+
+                    <div className="icons">
+                        <a href="">Report cards</a>
+                    </div>
+
+                    <div className="icons">
+                        <a href="">School Fees</a>
+                    </div>
+                    
+                    <div className="icons">
+                        <a href="">Library</a>
+                    </div>
                 </div>
 
                 <div>
-                    <p className="newadmission"> <a href="">+ New admissions</a></p>
+                    <div>
+                        <button className="btn">+ New admissions</button>
+                    </div>
                     <p>Settings</p>
                     <p>Logout</p>
                 </div>

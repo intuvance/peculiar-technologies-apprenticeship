@@ -1,28 +1,22 @@
 function Pageheader(){
     return(
         <div className="pageheader">
+            <h1>Examination Overview</h1>
 
-                            <h1>Examination Overview</h1>
-                            <p> Term 2, 2024 Aacademic Year</p>
+            <div className="wrapper">
+                <div className="examInfo">
+                    <span>Term2, 2024 Academic Year</span>
+                    <span>Active season</span>
+                </div>
 
-                            <div className="active">
-                                <p>Active Season</p>
-                            </div>
-
-                            <div>
-                                <p>Exam Schedule</p>
-                            </div>
-
-                            <div>
-                                <p>Generate Reports</p>
-                            </div>
-
-                            <div className="entermarks">
-                                <p>enter marks</p>
-                            </div>
-
-                        </div>
-        
+                <div className="examBtns">
+                    <button>Exam Schdeule</button>
+                    <button>Generate Reports</button>
+                    <button>Enter Marks</button>
+                </div>
+                
+            </div>
+        </div>
     )
 }
 
