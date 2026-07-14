@@ -14,24 +14,33 @@ body {
 
 /* Sidebar Placeholder styling */
 .sidebar {
-    width: 240px;
+    width: 150px;
+    height: 600px;
     background-color: #1a2536;
-    color: #fff;
-    padding: 20px;
+    color: white;
+    padding:0px;
 }
 
 .sidebar h2 {
     font-size: 1.2rem;
     margin-bottom: 30px;
     color: #fff;
+
+}
+
+.active a{
+    color: #dcdcdc;
+
 }
 
 /* Main Content Container */
 .main-container {
-    flex: 1;
+    flex: 1;/*Tells the main container to fill all the remaining wedith*/
+    display: flex right;
+    flex-direction:column ; 
     padding: 30px;
     max-width: 1200px;
-    margin: 0 auto;
+    
 }
 
 /* Header Layout */
@@ -257,7 +266,7 @@ body {
 }
 .dot.blue { background-color: #2b5ce6; }
 .dot.green { background-color: #2ebd7f; }
-.dot.red { background-color: #e63b3b; }
+.dot.red { background-color: #df0404; }
 
 .legend-val {
     font-weight: 600;
@@ -267,4 +276,10 @@ body {
 .pr {
   font-size:0.85rem; 
   color:#8892b0;
+}
+
+.wrapper{
+    display: flex;
+    background-color: rgb(232, 210, 210);
+    width: 100vw;
 }
