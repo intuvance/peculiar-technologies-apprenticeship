@@ -8,7 +8,7 @@ function Examinvig() {
                                     <p className="p2">Mathematics . P.7 West</p>
                                 </div>
 
-                                <div>
+                                <div className="tech">
                                     <p className="p1">Ms.Namubiru Janet</p>
                                     <p className="p2">English . S.4 Blue</p>
                                 </div>

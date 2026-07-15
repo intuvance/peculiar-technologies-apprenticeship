@@ -22,7 +22,7 @@ function Upcomingexams() {
 
                                 <div className="event">
                                     <div id="DATE">
-                                    <p>OCT 24</p>
+                                    <p>OCT 26</p>
                                     </div>
 
                                     <div className="open">
@@ -38,7 +38,7 @@ function Upcomingexams() {
 
                                 <div className="event">
                                     <div id="DATE">
-                                    <p>OCT 24</p>
+                                    <p>OCT 29</p>
                                     </div>
 
                                     <div className="open">

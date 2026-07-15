@@ -1,10 +1,13 @@
+
+
 function Subjectaverage() {
-  return(
+return(
      <div className="subject">
 
                                 <div>
                                     <h3>Subject Average</h3>
                                 </div>
+                                
 
                                 <div className="subjects">
                                     <p>MATH  ENG  SCI  SST</p>
@@ -15,9 +18,6 @@ function Subjectaverage() {
     
 
   )
-
-  
- 
 }
 
 export default Subjectaverage;
