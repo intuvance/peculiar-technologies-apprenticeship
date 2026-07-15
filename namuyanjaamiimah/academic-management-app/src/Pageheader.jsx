@@ -5,14 +5,14 @@ function Pageheader(){
 
             <div className="wrapper">
                 <div className="examInfo">
-                    <span>Term2, 2024 Academic Year</span>
-                    <span>Active season</span>
+                    <span>Term2, 2024 Academic Year  .</span>
+                    <span className="active">Active season</span>
                 </div>
 
                 <div className="examBtns">
                     <button>Exam Schdeule</button>
                     <button>Generate Reports</button>
-                    <button>Enter Marks</button>
+                    <button id="btn4">Enter Marks</button>
                 </div>
                 
             </div>

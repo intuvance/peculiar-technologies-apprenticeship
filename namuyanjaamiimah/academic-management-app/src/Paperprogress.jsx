@@ -22,8 +22,8 @@ function Paperprogress() {
                                 <div className="progress" >
                                     <div className="prog">
                                         <div className="progressInfo">
-                                            <p> Marking Ready</p>
-                                            <p>84%</p>
+                                            <p> In Progress</p>
+                                            <p>12%</p>
                                         </div>
                                         <div className="progressBar">
                                             <div className="bar2"></div>
@@ -34,8 +34,8 @@ function Paperprogress() {
                                 <div className="progress" >
                                     <div className="prog">
                                         <div className="progressInfo">
-                                            <p> Marking Ready</p>
-                                            <p>84%</p>
+                                            <p> Marked and Verified</p>
+                                            <p>65%</p>
                                         </div>
                                         <div className="progressBar">
                                             <div className="bar3"></div>

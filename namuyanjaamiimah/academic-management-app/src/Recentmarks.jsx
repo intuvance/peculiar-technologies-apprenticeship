@@ -2,9 +2,13 @@ function Recentmarks() {
   return(
     <div className="marksentry">
 
-                                <h3> Recent Marks Entry</h3>
+                               
 
                                 <table>
+                                    <thead>
+                                        <h3>Recent Marks Entry</h3>
+                                    </thead>
+          
 
                                     <tbody>
                                         <tr>
@@ -21,7 +25,7 @@ function Recentmarks() {
                                             <td>P.7 West</td>
                                             <td>Mathematics</td>
                                             <td>92</td>
-                                            <td>D1</td>
+                                            <td className="g1">D1</td>
                                             <td>VERIFIED</td>
                                         </tr>
 
@@ -30,7 +34,7 @@ function Recentmarks() {
                                             <td>S.4 Blue</td>
                                             <td>English</td>
                                             <td>78</td>
-                                            <td>C3</td>
+                                            <td className="g2">C3</td>
                                             <td>PENDIND</td>
                                         </tr>
 
@@ -39,7 +43,7 @@ function Recentmarks() {
                                             <td>S.2 East</td>
                                             <td>Physics</td>
                                             <td>64</td>
-                                            <td>C5</td>
+                                            <td >C5</td>
                                             <td>VERIFIED</td>
                                         </tr>
                                     </tbody>
@@ -48,12 +52,6 @@ function Recentmarks() {
     </div>
 
   )
-
-  
-
-
-  
- 
 }
 
 export default Recentmarks;
