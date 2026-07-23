@@ -10,8 +10,8 @@ function Pageheader(){
                 </div>
 
                 <div className="examBtns">
-                    <button>Exam Schdeule</button>
-                    <button>Generate Reports</button>
+                    <button className="btn6">Exam Schdeule</button>
+                    <button className="btn6">Generate Reports</button>
                     <button id="btn4">Enter Marks</button>
                 </div>
                 

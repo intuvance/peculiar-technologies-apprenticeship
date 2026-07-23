@@ -260,6 +260,47 @@ function Examination() {
                                 <h3>Year Trend</h3>
                                 <p> Overall performance has increased by 8.4% compared to term 1</p>
                             </div>
+
+
+                            {/*upcoming events  */}
+
+                            <div className="upcomingevents">
+                                <div className="staff">
+                                    <div id="term">
+                                    <p> MAY 22</p>
+                                    </div>
+
+                                    <div className="ceremony">
+                                        <p>Term 11 Opening Ceremony</p>
+                                        <p>08:00AM -School Grounds</p>
+                                        <p>+12</p>
+
+                                    </div>
+
+                                </div>
+
+                                <div className="staff">
+                                    <div id="term">
+                                    <p>MAY 25</p>
+                                    </div>
+
+                                    <div className="ceremony">
+                                        <p>Staff Meeting</p>
+                                        <p>03:30AM -Main Hall</p>
+                                        <p>Block A, Room 302</p>
+
+                                    </div>
+
+                                </div>
+                                
+
+                                
+
+                                <div className="eventBtn">
+                                    <button> + Add New Event</button>
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>

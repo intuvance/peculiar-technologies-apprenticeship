@@ -3,6 +3,7 @@ import Topbar  from "./Topbar";
 import Overview from "./Overview";
 import Container from "./Container";
 import Lastpart from "./Lastpart";
+import Upcomingevents from "./Upcomingevents";
 
 
 function Dashboard() {
@@ -10,7 +11,6 @@ function Dashboard() {
     <>
     <div className="partone">
         <Sidebar/>
-
         <div className="parttwo" >
             <Topbar/>
             <Overview/>
@@ -20,9 +20,13 @@ function Dashboard() {
               <Lastpart/>
             </div>
 
+            <div>
+              <Upcomingevents/>
+            </div>
+
 
             
-           </div>
+        </div>
         
     </div>
 

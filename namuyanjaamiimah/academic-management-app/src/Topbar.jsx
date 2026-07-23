@@ -1,4 +1,10 @@
 import man from './assets/man.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBell } from '@fortawesome/free-solid-svg-icons'
+import { faQuestion} from '@fortawesome/free-solid-svg-icons'
+
+
 
 function Topbar() {
   return(
@@ -8,8 +14,10 @@ function Topbar() {
                                 <input type="text" placeholder="search exams, students or grades" />
                             </form>
                             <div>
-                                <i class="fa-regular fa-bell"></i>
-                                <i class="fa-regular fa-circle-question"></i>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                               <FontAwesomeIcon icon={faBell} />
+                               <FontAwesomeIcon icon={faQuestion}/>
+
                             </div>
 
                            <div className='top1'>
@@ -28,5 +36,6 @@ function Topbar() {
         </div>
   )
 }
+
 
 export default Topbar;
